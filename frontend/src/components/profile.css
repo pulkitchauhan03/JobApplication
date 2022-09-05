@@ -1,0 +1,116 @@
+.details {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* padding-left: 20px; */
+}
+
+.gender-icon-class{
+    align-items: right;
+}
+
+.title-h3 {
+    text-align: left;
+}
+
+/* .about-info, .summary {
+    padding-left: 20px;
+} */
+
+.phone-info, .email-info {
+    text-align: left;
+    color: grey;
+    font-size: small;
+}
+
+.summary-text {
+    text-align: left;
+    color: grey;
+    font-size: small;
+}
+
+.choice-select {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.approve-button {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.decline-button {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.details-container {
+    padding: 5px 20px;
+}
+
+.academic-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.academic-container p {
+    text-align: left;
+}
+
+.academic-detail {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
+
+.school-name {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.course-name {
+    color: grey;
+    margin-top: 0;
+    font-size: small;
+}
+
+.school-date {
+    font-size: small;
+}
+
+.description {
+    font-size: small;
+}
+
+/* .MuiPaper-root {
+    width: 95%;
+} */
+/* 
+.css-u21v34-MuiModal-root-MuiDialog-root .MuiPaper-root{
+    width: 95%;
+} */
+
+.right-container {
+    width: 95%;
+}
+
+/* .profile-container {
+    width: 20%;
+    position: fixed;
+} */
+
+.avatar-profile {
+    width: 100%;
+    margin: auto;
+}
+
+.card-img-top-profile {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
